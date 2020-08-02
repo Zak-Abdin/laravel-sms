@@ -1,0 +1,26 @@
+{
+    "name": "zek/sms",
+    "description": "A sms package for laravel",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "authors": [
+        {
+            "name": "Zeka Abdinov",
+            "email": "zekaabdinov91@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Zek\\Sms\\": "src/"
+        }
+    },
+    "scripts": {
+        "post-package-install": [
+            "php artisan vendor:publish --force"
+        ]
+    }
+}
