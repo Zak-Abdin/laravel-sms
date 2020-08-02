@@ -2,7 +2,7 @@
     "name": "zeka/sms",
     "description": "A sms package for laravel",
     "require": {
-        "guzzlehttp/guzzle": "^7.0"
+        "guzzlehttp/guzzle": "^6.0"
     },
     "authors": [
         {
