@@ -4,8 +4,8 @@
 namespace Zek\Sms;
 
 
-use App\Sms\Drivers\NullDriver;
-use App\Sms\Drivers\PoctGoyarchini;
+use Zek\Sms\Drivers\NullDriver;
+use Zek\Sms\Drivers\PoctGoyarchini;
 use Illuminate\Support\Manager;
 
 class SmsManager extends Manager

@@ -16,7 +16,7 @@ class SmsServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/config/sms.php' => config_path('sms_test.php')
+            __DIR__.'/config/sms.php' => config_path('sms.php')
         ]);
     }
 
